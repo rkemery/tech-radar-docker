@@ -12,3 +12,6 @@ docker build . -t tech-radar-docker
 
 docker run -d -p 3000:3000 tech-radar-docker:latest
 
+wait a bit for yarn to start
+
+go to http://localhost:3000 in your browser
