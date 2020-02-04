@@ -1,6 +1,5 @@
-# stage: 1
-FROM node:8 as react-build
-ENV HOME /Users/rkemery
+FROM node:latest as react-build
+ENV HOME /Users/cooluser
 WORKDIR $HOME/docker/tech-radar-docker
 COPY . ./
 EXPOSE 3000
